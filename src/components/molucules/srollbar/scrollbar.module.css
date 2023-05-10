@@ -1,0 +1,31 @@
+.wrapper {
+    border: 1px rgb(209, 205, 205);
+    box-shadow: 1px 1px 8px 8px rgb(236, 232, 232);
+    width: 70%;
+    display: flex;
+    margin: auto;
+    padding: 2rem;
+    max-width: 70%;
+    overflow: scroll;
+}
+
+.wrapper::-webkit-scrollbar {
+    display: scroll;
+}
+
+.card {
+    background-color: rgb(231, 245, 250);
+    border-radius: 12px;
+    margin-right: 2rem;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+.img {
+    width: 170px;
+    margin: 5px;
+}
+
+.para {
+    text-align: center;
+}
